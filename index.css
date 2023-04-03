@@ -9,7 +9,7 @@ html, body {
 
 .layout {
     font-family: Inter;
-    width: 550px;
+    width: 480px;
     background-color: #e5e5e5;
     display: block;
     margin: 0 auto;
@@ -76,7 +76,7 @@ span a, .description {
 
 .description {
     line-height: 1.5;
-    width: 326px;
+    /* width: 326px; */
     color: #2b283a;
     margin: 0.8em 0 0 0;
 }
