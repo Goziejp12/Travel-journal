@@ -64,6 +64,10 @@ span a, .description {
     font-size: 0.64rem;
 }
 
+span a {
+    color: #918E9B;
+}
+
 .title {
     font-size: 1.563rem;
     margin: 0.3em 0 0.5em 0;
@@ -76,7 +80,6 @@ span a, .description {
 
 .description {
     line-height: 1.5;
-    /* width: 326px; */
     color: #2b283a;
     margin: 0.8em 0 0 0;
 }
