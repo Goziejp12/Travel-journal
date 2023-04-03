@@ -6,7 +6,10 @@ import MainPage from "./components/MainPage";
 export default function App() {
     let dataObj = data.map(items => {
         return (
-            <MainPage items={items} />
+            <MainPage
+                key={items.id}
+                items={items} 
+            />
         )
     })
     return (
