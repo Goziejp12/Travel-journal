@@ -1,7 +1,18 @@
 import React from "react";
+import data from "./components/data";
+import Header from "./components/Header";
+import MainPage from "./components/MainPage";
 
 export default function App() {
+    let dataObj = data.map(items => {
+        return (
+            <MainPage items={items} />
+        )
+    })
     return (
-        <h1>starting</h1>
+        <div className="layout">
+            <Header />
+            {dataObj}
+        </div>
     )
 }
